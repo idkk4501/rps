@@ -3,7 +3,7 @@
   # How to use
   1  make sure you have python installed
   
-  2 download this reops zip file
+  2 download this repos zip file
   
   3 extract the zip file
   
@@ -13,6 +13,6 @@
   - example:
   cd c:\users\myusername\downloads\rps.main
 
-6 in your cmd prompt, run the command: python main.py
+  6 in your cmd prompt, run the command: python main.py
 
-7 enjoy the game!
+  7 enjoy the game!
