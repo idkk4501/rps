@@ -2,11 +2,11 @@ import random
 
 print('starting RPS...')
 
-user = input('rock paper or scissors?:')  
+user = input('rock paper or scissors? or q to quit:')  
 pcch = ["rock", "paper", "scissors"]
 program = random.choice(pcch)
 
-print('yo dumbahh chose{user}, the computer chose{program}')
+print('the computer picked: ', program)
 
 if user == program:
  print('tied')
