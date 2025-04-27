@@ -45,8 +45,8 @@ if user not in pcch:
 
 exit = input('thaks for playing press e to exit:')
  
- if exit == 'e':
-  print('closing now')
+if exit == 'e':
+ print('closing now')
 
 
 
