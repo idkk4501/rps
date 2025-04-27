@@ -2,7 +2,7 @@ import random
 
 print('starting RPS...')
 
-user = input('rock paper or scissors? or q to quit:')  
+user = input('rock paper or scissors?:')  
 pcch = ["rock", "paper", "scissors"]
 program = random.choice(pcch)
 
@@ -38,7 +38,5 @@ elif user == 'scissors':
 if user not in pcch:
  print('OOPS, U MADE A FUCKY WUCKY. PLEASE TRY AGAIN')
 
-if user == 'q':
- break
- print('ending your RPS session')
+
 
