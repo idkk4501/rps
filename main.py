@@ -35,6 +35,9 @@ elif user == 'scissors':
  if program == 'rock':
   print('U LOST GET BETTER')
 
+if user == 'q'
+ break
+
 
 
 
