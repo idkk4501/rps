@@ -27,6 +27,9 @@ elif user == 'paper':
  if program == 'scissors':
   print('u fucking lost faggot u bad')
 
+if user == 'q'
+ break
+
 elif user == 'scissors':
  if program == 'paper':
   print('HOLY SHIT U WON U SOME KIND OF MIND READER PSYCHIC OR SOME SHIT OR A WITCH?')
