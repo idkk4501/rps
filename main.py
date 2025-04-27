@@ -39,5 +39,8 @@ elif user == 'scissors':
   print('U LOST GET BETTER')
 
 if user not in pcch:
- print('WRONG, FAGGOT CHOOSE WHAT I SAY')
+ print('YOU HAVE TYPED IN AN INVALID OPTION AND AUTOMATICALLY LOST')
+
+if user == 'q'
+ break
 
