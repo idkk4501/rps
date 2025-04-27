@@ -27,9 +27,6 @@ elif user == 'paper':
  if program == 'scissors':
   print('u fucking lost faggot u bad')
 
-if user == 'q'
- break
-
 elif user == 'scissors':
  if program == 'paper':
   print('HOLY SHIT U WON U SOME KIND OF MIND READER PSYCHIC OR SOME SHIT OR A WITCH?')
@@ -40,6 +37,8 @@ elif user == 'scissors':
 
 if user not in pcch:
  print('YOU HAVE TYPED IN AN INVALID OPTION AND AUTOMATICALLY LOST')
+if user == 'q'
+ print('ending your RPS session')
 
 if user == 'q'
  break
