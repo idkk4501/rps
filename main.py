@@ -37,9 +37,10 @@ elif user == 'scissors':
 
 if user not in pcch:
  print('YOU HAVE TYPED IN AN INVALID OPTION AND AUTOMATICALLY LOST')
-if user == 'q'
+
+if user == 'q':
  print('ending your RPS session')
 
-if user == 'q'
+if user == 'q':
  break
 
