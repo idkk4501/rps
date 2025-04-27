@@ -40,6 +40,8 @@ elif user == 'scissors':
 if user == 'q':
  print('stopping your RPS session...Done')
 
+if user not in pcch:
+ print('you typed in an invalid option. please try again')
 
 
 
