@@ -23,4 +23,16 @@ elif user == 'paper':
 if program == 'rock':
 print('u win u want a damn medal or smth?')
 
+elif user == 'paper':
+if program == 'scissors':
+print('u fucking lost faggot u bad')
+
+elif user == 'scissors':
+if program == 'paper':
+print('HOLY SHIT U WON U SOME KIND OF MIND READER PSYCHIC OR SOME SHIT OR A WITCH?')
+
+elif user == 'scissors':
+if program == 'rock':
+print('U LOST GET BETTER')
+
 
