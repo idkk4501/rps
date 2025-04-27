@@ -35,8 +35,7 @@ elif user == 'scissors':
  if program == 'rock':
   print('U LOST GET BETTER')
 
-if user not in pcch:
- print('OOPS, U MADE A FUCKY WUCKY. PLEASE TRY AGAIN')
+
 
 
 
