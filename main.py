@@ -4,7 +4,7 @@ print('starting RPS...')
 
 print('loading...Done')
 
-user = input('rock paper or scissors? or q to quit:')  
+user = input('rock paper or scissors?:')  
 pcch = ["rock", "paper", "scissors"]
 program = random.choice(pcch)
 
@@ -42,6 +42,11 @@ if user == 'q':
 
 if user not in pcch:
  print('you typed in an invalid option. please try again')
+
+exit = input('thaks for playing press e to exit:')
+ 
+ if exit == 'e':
+  print('closing now')
 
 
 
