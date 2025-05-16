@@ -6,6 +6,8 @@ player = input('rock, paper, or scissors? or q to quit>')
 pos = 'rock, paper, scissors'
 computer = random.choice(pos)
 
+print('THE COMPUTER CHOSE' , computer)
+
 while True:
     if computer == player:
         print('TIE')
