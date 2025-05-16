@@ -1,53 +1,41 @@
 import random
 
-print('starting RPS...')
+print('YOU ARE PLAYING AGAINST THE COMPUTER')
 
-print('loading...Done')
+player = input('rock, paper, or scissors? or q to quit>')
+pos = 'rock, paper, scissors'
+computer = random.choice(pos)
 
-user = input('rock paper or scissors?:')  
-pcch = ["rock", "paper", "scissors"]
-program = random.choice(pcch)
-
-print('the computer picked: ', program)
-
-if user == program:
- print('tied')
-
-elif user == 'rock':
- if program == 'scissors':
-  print('you win u want a damn medal or smth?')
-
-elif user == 'rock':
- if program == 'paper':
-  print('you lost faggotino')
-
-elif user == 'paper':
- if program == 'rock':
-  print('u win u want a damn medal or smth?')
-
-elif user == 'paper':
- if program == 'scissors':
-  print('u fucking lost faggot u bad')
-
-elif user == 'scissors':
- if program == 'paper':
-  print('HOLY SHIT U WON U SOME KIND OF MIND READER PSYCHIC OR SOME SHIT OR A WITCH?')
-
-elif user == 'scissors':
- if program == 'rock':
-  print('U LOST GET BETTER')
-
-if user == 'q':
- print('stopping your RPS session...Done')
-
-if user not in pcch:
- print('you typed in an invalid option. please try again')
-
-exit = input('thaks for playing press e to exit:')
- 
-if exit == 'e':
- print('closing now')
-
+while True:
+    if computer == player:
+        print('TIE')
+        
+    elif computer == 'rock':
+        if player == 'paper':
+            print('U WIN')
+            
+    elif computer == 'rock':
+        if player == 'scissors':
+            print('U LOST')
+            
+    elif computer == 'paper':
+        if player == 'rock':
+            print('U WIN')
+            
+    elif computer == 'paper':
+        if player == 'scissors':
+            print('U LOST')
+            
+    elif computer == 'scissors':
+        if player == 'paper':
+            print('U LOST')
+            
+    elif computer == 'scissors':
+        if player == 'rock':
+            print('U WIN')
+            
+    if player == 'q':
+        break
 
 
 
